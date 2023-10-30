@@ -133,3 +133,25 @@ a:hover, a:focus {
 .card[data-color="orange"] .category {
     color: #e95e37;
 }
+
+.deleteIcon{
+    color: black;
+    cursor: pointer;
+}
+.deleteIcon:hover{
+    color:red;
+    
+}
+
+.editIcon{
+    color: black;
+    cursor: pointer;
+}
+
+.editIcon:hover{
+    color: rgb(30, 165, 52);
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
